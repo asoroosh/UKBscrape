@@ -1,0 +1,17 @@
+*.m~
+*.mat
+*.txt
+*.pyc
+*.pkl
+*.pickle
+*.key
+*KEY*
+*key*
+*Keys.py
+*Keys*
+*.Keys
+*.csv
+*.tsv
+*.text
+__pycache__
+matchreport
