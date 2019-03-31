@@ -51,7 +51,7 @@ For example:
 
 ```
 
-ukbs.dictionary(UKBCSVFile = 'ukb25120_Headers.txt',FieldID=['4056','26412']);
+ukbs.dictionary(UKBCSVFile = 'ukbXXXXX_Headers.txt',FieldID=['4056','26412']);
 
 You requested dictionary for 2 data fields.
                             Label                         Category WeHave
