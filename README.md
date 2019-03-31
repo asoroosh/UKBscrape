@@ -34,8 +34,8 @@ ukbs.match(UKBCSVFile = 'ukbXXXX_Headers.txt',Report2 = '/write/me/down/a/report
 
 Report2 [optional]: if you need to save the reports, set a path for the results. 
 This will produce two csv files: 
-*YouDontHave.csv`: FieldID, label and category of the variables that you don't have
-*WasntParsed.csv`: the variables that may have missed in parsing but your application has! 
+* YouDontHave.csv`: FieldID, label and category of the variables that you don't have
+* WasntParsed.csv`: the variables that may have missed in parsing but your application has! 
 
 ### Dictionary 
 It acts as a dictionary, you can pass a variable Field ID and it will return the variable name and its category (by category I mean *UKbiobank* pre-defined categories.)
@@ -43,9 +43,9 @@ It acts as a dictionary, you can pass a variable Field ID and it will return the
 ukbs.dictionary(UKBCSVFile = '', FieldID = '' ,SaveMe2 = '')
 ```
 
-*`UKBCSVFile`: path to the file of your UKB csv file (it is only to check whether you have that specific Field ID)
-*`FieldID`: The Field ID that you need to use the dictionary for. This has to be list of integers
-*`SaveMe2` [optional]: path to a directory to save the results as tsv file. It saves the FieldID, labels and categories of passed FieldIDs
+* `UKBCSVFile`: path to the file of your UKB csv file (it is only to check whether you have that specific Field ID)
+* `FieldID`: The Field ID that you need to use the dictionary for. This has to be list of integers
+* `SaveMe2` [optional]: path to a directory to save the results as tsv file. It saves the FieldID, labels and categories of passed FieldIDs
 
 For example:
 
